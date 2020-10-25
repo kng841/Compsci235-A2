@@ -1,3 +1,12 @@
 p{
-color:red;
+	color:green;
+}
+
+h1{
+	text-align:center;
+	color:blue;
+}
+
+.wrapper{
+	background-color:blue;
 }
