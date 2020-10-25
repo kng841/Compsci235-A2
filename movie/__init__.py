@@ -22,7 +22,7 @@ def create_app():
     @app.route("/hello/")
     def hello():
         html_page = render_template(
-            'hello.html',
+            'view_movies.html',
             test = repo.repo_instance.get_movies(),
             desc = repo.repo_instance.get_movies().description,
             direc = repo.repo_instance.get_movies().director,
