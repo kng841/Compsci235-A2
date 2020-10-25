@@ -23,7 +23,7 @@ def create_app():
     def hello():
         html_page = render_template(
             'view_movies.html',
-            test = repo.repo_instance.get_movies(),
+            name = repo.repo_instance.get_movies(),
             desc = repo.repo_instance.get_movies().description,
             direc = repo.repo_instance.get_movies().director,
             actor = repo.repo_instance.get_movies().actors,
